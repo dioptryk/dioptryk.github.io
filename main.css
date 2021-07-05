@@ -1,0 +1,24 @@
+/* body */
+body {
+  /*overflow: hidden;*/ /* hide scrollbars */
+  color: white;
+}
+
+/* rendered background */
+#render {
+	width: 100%; 
+	height: 100%; 
+	position: absolute; 
+	top: 0; 
+	left: 0;	
+	z-index: -1;
+}
+
+.jumbotron {
+	backdrop-filter: blur(6px);
+	background-color: #00000080 !important;
+}
+
+a, a:visited, a:active {
+	color: #00ffff !important;
+}
