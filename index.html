@@ -1,43 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<link type="text/css" rel="stylesheet" href="main.css">
-		<title>Dioptryk's Github Page</title>
-	</head>
-	<body>
 
-		<div id="render">
-		</div>
-		
-		<div class="container">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link type="text/css" rel="stylesheet" href="main.css">
+	<title>Dioptryk's Github Page</title>
 
-			<div class="jumbotron">
-				<h1 class="display-5">Dioptryk's Github Page</h1>
-				<p class="lead">
-					Hello, this is a temporary page until my domain is on line. 
-					For the time being, this is where you can find info about my project, <strong>Undead Heart</strong> (working title),
-					made in <a href="https://godotengine.org/">Godot Engine</a>.
-				</p>
-				<p>
-					Below, you'll find a short movie made for Godot Showreel 2021.
-				</p>
-				<div class="embed-responsive embed-responsive-16by9">
-					<iframe src="https://www.youtube.com/embed/xZ2wdU23Ibw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 	allowfullscreen></iframe>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.8.0/simple-lightbox.min.js"
+		integrity="sha512-7AgCVfckK0hUmwv7XBKt4kbzMx3PegDe8GoKNmr0Vwl6I0KqQNdCLxlQp0r0QDthbxhzmyKJhTLi5G3XWDZgdQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.8.0/simple-lightbox.min.css"
+		integrity="sha512-532yblGlcUNuhkNcX7Z710ZiZuWj7GaXBEy3poMaWKVqqm4xuy5nLJhZcoho6EuHDdYUBQ/J0p6Nr9p5+k4tTw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+	<div id="render">
+	</div>
+
+	<div class="container h-100" style="position: absolute; top: 0px; left: 0px">
+
+		<div class="jumbotron h-100">
+			<h1 class="display-5">Dioptryk's Github Page</h1>
+			<p class="lead">
+				Hello, this is a temporary page until my domain is on line.
+				For the time being, this is where you can find info about my project, <strong>Undead Heart</strong>
+				(working title),
+				made in <a href="https://godotengine.org/">Godot Engine</a>.
+			</p>
+			<p>
+				Below, you'll find a short movie made for Godot Showreel 2021 and a screenshot gallery.
+			</p>
+			<div class="container">
+				<div class="row">
+					<div class="col pl-0">
+						<div class="embed-responsive" style="height: 200px">
+							<iframe src="https://www.youtube.com/embed/xZ2wdU23Ibw" title="YouTube video player"
+								frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen></iframe>
+						</div>
+					</div>
+					<div class="col">
+						<div class="container gallery">
+							<div class="row">
+								<div class="col pl-0">
+									<a href="img/screenshots/CharacterScreen01.jpg"><img class="img-fluid"
+											src="img/screenshots/CharacterScreen01_Thumbnail.jpg" alt=""
+											title="Character Screen with attributes and resistances" /></a>
+								</div>
+								<div class="col pl-0">
+									<a href="img/screenshots/Forest01.jpg"><img class="img-fluid"
+											src="img/screenshots/Forest01_Thumbnail.jpg" alt=""
+											title="The Dark Forest" /></a>
+								</div>
+								<div class="col pl-0">
+									<a href="img/screenshots/InventoryHeart01.jpg"><img class="img-fluid"
+											src="img/screenshots/InventoryHeart01_Thumbnail.jpg" alt=""
+											title="Inventory showing a Human Heart, which is a special item central to the player build" /></a>
+								</div>
+							</div>
+							<div class="row mt-3">
+								<div class="col pl-0">
+									<a href="img/screenshots/InventoryMask01.jpg"><img class="img-fluid"
+											src="img/screenshots/InventoryMask01_Thumbnail.jpg" alt=""
+											title="A strange mask equipped by the player" /></a>
+								</div>
+								<div class="col pl-0">
+									<a href="img/screenshots/MapTemplateEditor01.jpg"><img class="img-fluid"
+											src="img/screenshots/MapTemplateEditor01_Thumbnail.jpg" alt=""
+											title="Editing a map in the Godot Engine TileMap editor; the 2d map is a basis for runtime level generation" /></a>
+								</div>
+								<div class="col pl-0">
+									<a href="img/screenshots/SkillTree01.jpg"><img class="img-fluid"
+											src="img/screenshots/SkillTree01_Thumbnail.jpg" alt=""
+											title="First version of a skill tree; Path of Steel contains melee and weapon skills" /></a>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-				<hr class="my-4">
-				<p>
-					You can reach me (Bartłomiej Karwacki) at <a href="mailto:bartlomiej.karwacki@protonmail.com">bartlomiej.karwacki@protonmail.com</a>.
-				</p>
-				<p>
-					The background on this page is rendered using a shader from <a href="https://www.shadertoy.com/view/MlXSWX">Shadertoy</a>.
-				</p>
 			</div>
+			<p>
 
+			</p>
+			<p>
+				You can reach me (Bartłomiej Karwacki) at <a
+					href="mailto:bartlomiej.karwacki@protonmail.com">bartlomiej.karwacki@protonmail.com</a>.
+			</p>
+			<p>
+				The background on this page is rendered using a shader from <a
+					href="https://www.shadertoy.com/view/MlXSWX">Shadertoy</a>.
+			</p>
 		</div>
-		
+
+		<script>
+			new SimpleLightbox('.gallery a', { captionPosition: "outside" });
+		</script>
+
 		<script id="vertexShader" type="x-shader/x-vertex">
 
 			varying vec2 vUv;
@@ -48,8 +114,8 @@
 			}
 
 		</script>
-	
-		<script id="tunnel" type="x-shader/x-fragment">
+
+		<script id="tunnelShader" type="x-shader/x-fragment">
 
 			#define PI 3.1415926535898
 			#define FH 1.0 // Floor height. Set it to 2.0 to get rid of the floor.
@@ -344,7 +410,7 @@
 				//gl_FragColor = vec4(uv.x, uv.y, 0.0, 1.0);
 				
 			}
-		</script>		
+		</script>
 
 		<script type="module">
 
@@ -359,24 +425,24 @@
 
 			function init() {
 
-				const container = document.getElementById( 'render' );
+				const container = document.getElementById('render');
 
 				scene = new THREE.Scene();
-				camera = new THREE.OrthographicCamera( - 1, 1, 1, - 1, 0, 1 );
+				camera = new THREE.OrthographicCamera(- 1, 1, 1, - 1, 0, 1);
 
-				const geometry = new THREE.PlaneGeometry( 2, 2 );
-				
+				const geometry = new THREE.PlaneGeometry(2, 2);
+
 				const loadManager = new THREE.LoadingManager();
 				const loader = new THREE.TextureLoader(loadManager);
-				
-				const tex0 = loader.load( "Rock_036_baseColor.jpg" );
-				const tex1 = loader.load( "Rock_038_baseColor.jpg" );
-				
+
+				const tex0 = loader.load("img/Rock_036_baseColor.jpg");
+				const tex1 = loader.load("img/Rock_038_baseColor.jpg");
+
 				tex0.wrapS = THREE.RepeatWrapping;
-				tex0.wrapT = THREE.RepeatWrapping;				
+				tex0.wrapT = THREE.RepeatWrapping;
 
 				tex1.wrapS = THREE.RepeatWrapping;
-				tex1.wrapT = THREE.RepeatWrapping;				
+				tex1.wrapT = THREE.RepeatWrapping;
 
 				uniforms = {
 					iTime: { value: 1.0 },
@@ -386,30 +452,30 @@
 					screenHeight: { value: window.innerHeight },
 				};
 
-				const material = new THREE.ShaderMaterial( {
+				const material = new THREE.ShaderMaterial({
 
 					uniforms: uniforms,
-					vertexShader: document.getElementById( 'vertexShader' ).textContent,
-					fragmentShader: document.getElementById( 'tunnel' ).textContent
+					vertexShader: document.getElementById('vertexShader').textContent,
+					fragmentShader: document.getElementById('tunnelShader').textContent
 
-				} );
+				});
 
-				const mesh = new THREE.Mesh( geometry, material );
-				scene.add( mesh );
+				const mesh = new THREE.Mesh(geometry, material);
+				scene.add(mesh);
 
 				renderer = new THREE.WebGLRenderer();
-				renderer.setPixelRatio( window.devicePixelRatio );
-				container.appendChild( renderer.domElement );
+				renderer.setPixelRatio(window.devicePixelRatio);
+				container.appendChild(renderer.domElement);
 
 				onWindowResize();
 
-				window.addEventListener( 'resize', onWindowResize );
+				window.addEventListener('resize', onWindowResize);
 
 			}
 
 			function onWindowResize() {
 
-				renderer.setSize( window.innerWidth, window.innerHeight );
+				renderer.setSize(window.innerWidth, window.innerHeight);
 
 			}
 
@@ -417,15 +483,16 @@
 
 			function animate() {
 
-				requestAnimationFrame( animate );
+				requestAnimationFrame(animate);
 
-				uniforms[ 'iTime' ].value = performance.now() / 10000;
+				uniforms['iTime'].value = performance.now() / 10000;
 
-				renderer.render( scene, camera );
+				renderer.render(scene, camera);
 
 			}
 
 		</script>
 
-	</body>
+</body>
+
 </html>

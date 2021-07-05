@@ -1,24 +1,28 @@
 /* body */
 body {
-  /*overflow: hidden;*/ /* hide scrollbars */
+  overflow: hidden; /* hide scrollbars */
   color: white;
+  height: 100%;
+  width: 100%;
 }
 
 /* rendered background */
 #render {
-	width: 100%; 
-	height: 100%; 
-	position: absolute; 
-	top: 0; 
-	left: 0;	
+	min-height: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;	
 	z-index: -1;
 }
 
+/* jumbo */
 .jumbotron {
 	backdrop-filter: blur(6px);
-	background-color: #00000080 !important;
+	background-color: #000000A0 !important;
 }
 
+/* links */
 a, a:visited, a:active {
 	color: #00ffff !important;
 }
